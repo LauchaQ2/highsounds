@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color: #545454;
+}
+.navbar{
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #545454;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.logo{
+    width: 272px;
+    height: 100%;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+}
+.searchnav{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.searchinput{
+    height: 30px;
+    border-radius: 10px;
+}
+.lupa{
+    text-decoration: none;
+}
+.login, .carrito{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.user, .cart{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+div.login a, div.carrito a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+.menubar{
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #9e6f31;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.menu{
+    width: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+}
+.menu li{
+    width: 100%;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.container{
+    justify-content: center;
+    margin: auto;
+    background-color: #545454;
+    width: 100%;
+    height: auto;
+  }
+  .containerimagen{
+      align-content: center;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+  }
+  #imgslider{
+      margin-top:25px;
+      margin-bottom:25px;
+      width: 1000px;
+      height: 450px;
+      border: 1px solid black;
+  }
+  #back{
+      width: 30px;
+      height: 50px;
+  }
+  .buttonsimg{
+    background-color: #545454;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  }
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  .menuslider{
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+  
+  .menuslider li, .menuslider2 li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menuslider li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.menuslider2{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+}
+.menuslider2 li{
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 15px;
+}
+.menuslider2 li a{
+    color: #9e6f31;
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: Montserrat;
+
+}
+.menuslider2 li p{
+    color: white;
+    margin-left: 5px;
+    font-weight: 600;
+    font-family: Montserrat;
+
+}
+.menuslider2 li img{
+    width: 30px;
+    height: 30px;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat.ttf);
+}
+.container2{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 0px;
+    background-color: #545454;
+    padding: 30px;
+    height: auto; 
+    justify-content: center;
+}
+.products{
+    border-radius: 10px;
+    margin: 0px 50px;
+    width: 200px;
+    height: 200px;
+}
+.products a, .products img{
+    border-radius: inherit;
+    width: inherit;
+    height: inherit;
+}
+.products2{
+    border-radius: 10px;
+    margin: 0px 50px;
+    width: 500px;
+    height: 200px;
+}
+.products2 a, .products2 img{
+    border-radius: inherit;
+    width: inherit;
+    height: inherit;
+}
+.subtitle{
+    color: white;
+    font-family: Montserrat;
+    font-size: 40px;
+}
+.products3{
+    border-radius: 10px;
+    margin: 0px 50px;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+.products3 a, .products3 img{
+    border-radius: inherit;
+    width: 200px;
+    height: 200px;
+}
+.subtitle2{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    font-family: Montserrat;
+}
+.subtitle2 a{
+    color: #9e6f31;
+}
+.form{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    width: 100%;
+    background-color: #9e6f31;
+    height: 200px;
+}
+.forml{
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    font-family: Montserrat;
+    color: white;
+}
+.formr{
+    display: block;
+    width: 50%;
+}
+.formr1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+.formr1 input{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.formr2{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.formr2 input{
+    background-color: #545454;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+}
+.logo2 img{
+    height: 70px;
+}
+.container3{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 0px;
+    background-color: #545454;
+    padding: 30px;
+    height: auto; 
+    justify-content: space-around;
+    font-family: Montserrat;
+}
+.container3 div ul li:first-child{
+    font-size: 30px;
+    text-decoration: underline;
+}
